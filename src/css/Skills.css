@@ -6,7 +6,8 @@
 
 
 .s-chart {
-    width: 500px;
+    width: 100%;
+
 }
 
 .s-title {
@@ -25,9 +26,16 @@
 .s-right {
     display: flex;
     flex: 1;
-    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
+.s-left-wrapper{
+    width: 80%;
+}
+.s-right-wrapper {
+    width: 80%;
+}
 
 li {
     position: relative;
@@ -109,5 +117,32 @@ li.re:after {
 @keyframes re {
     to {
         width: 60%;
+    }
+}
+
+li.fg:after {
+    animation-name: fg;
+}
+
+@keyframes fg {
+    to {
+        width: 90%;
+    }
+}
+
+li.pr:after {
+    animation-name: pr;
+}
+
+@keyframes pr {
+    to {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .s {
+        flex-direction: column;
+        overflow: visible;
     }
 }

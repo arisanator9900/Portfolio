@@ -26,11 +26,11 @@ const Skills = () => {
             <Line />
           <div class="s-chart">
             <ul>
-              <li class="html">HTML</li>
-              <li class="css">CSS</li>
-              <li class="ui">UX/UI</li>
-              <li class="js">JavaScript</li>
-              <li class="re">React</li>
+              <li class="html">Photoshop</li>
+              <li class="css">Illustrator</li>
+              <li class="ui">InDesign</li>
+              <li class="fg">Figma</li>
+              <li class="pr">Procreate</li>
             </ul>
           </div>
         </div>

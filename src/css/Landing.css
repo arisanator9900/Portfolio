@@ -91,3 +91,19 @@
         transform: translateY(-200px);
     }
 }
+
+@media screen and (max-width: 600px){
+    .i {
+        flex-direction: column;
+    }
+    .i-left-wrapper {
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .i-desc {
+        display: none;
+    }
+}

@@ -16,7 +16,7 @@ const App = () => {
 	const darkMode = theme.state.darkMode;
 	return (
 		<div style={{
-			backgroundColor: darkMode ? "#3a3b3c" : '#fff',
+			backgroundColor: darkMode ? "#3a3b3c" : 'white',
 			color: darkMode ? 'white' : '#000',}}>
       	<Toggle />
 		<Landing />
