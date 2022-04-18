@@ -1,0 +1,42 @@
+.g {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .g-texts {
+    width: 65%;
+  }
+  
+  .g-title {
+    font-size: 50px;
+    font-weight: 600;
+    color: #FF7217;
+  }
+  
+  .g-desc {
+    margin: 20px 0px;
+  }
+  
+  .g-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .g {
+      padding: 10px;
+    }
+  
+    .g-texts {
+      width: 100%;
+    }
+  
+    .g-desc {
+      display: none;
+    }
+  }

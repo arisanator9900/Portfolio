@@ -1,6 +1,6 @@
 .s {
     display: flex;
-    height: 100vh;
+    height: 80vh;
     flex-direction: row;
 }
 
@@ -144,5 +144,6 @@ li.pr:after {
     .s {
         flex-direction: column;
         overflow: visible;
+        height: 120vh;
     }
 }

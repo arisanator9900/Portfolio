@@ -1,8 +1,12 @@
 import React from 'react'
 import "../css/Landing.css"
 import me from "../img/me.png"
+import { useContext } from 'react';
+import { ThemeContext, ThemeProvider } from '../components/context';
 
 const Landing = () => {
+    const theme = useContext(ThemeContext);
+	const darkMode = theme.state.darkMode;
   return (
     <div className='i'>
         <div className="i-left">
@@ -27,7 +31,7 @@ const Landing = () => {
             height="75"
             viewBox="0 0 75 75"
             fill="none"
-            stroke="black"
+            stroke= {darkMode ? 'white' : 'black'}
             className="i-scroll"
             xmlns="http://www.w3.org/2000/svg"
             >

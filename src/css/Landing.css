@@ -106,4 +106,8 @@
     .i-desc {
         display: none;
     }
+    .i-title-item {
+        justify-content: center;
+        text-align: center;
+    }
 }

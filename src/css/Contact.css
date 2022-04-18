@@ -1,0 +1,55 @@
+.c {
+    display: flex;
+    height: 60vh;
+    flex-direction: row;
+}
+
+
+.c-list {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.c-list:hover {
+    text-decoration: underline;
+    color: #FF7217;
+    cursor: pointer;
+}
+
+.c-title {
+    font-size: 50px;
+    font-weight: 600;
+    color: #FF7217;
+}
+
+.c-left {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-left-wrapper{
+    width: 80%;
+}
+.c-right-wrapper {
+    width: 80%;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 0 0 black;
+}
+
+.c-icon {
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+}
