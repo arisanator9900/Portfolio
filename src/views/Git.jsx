@@ -15,7 +15,7 @@ const Git = () => {
           </div>
           <div className="g-list">
                 {portItemsCode.map((item) => (
-                <Portfolio key={item.id} img={item.img} link={item.link} />
+                <Portfolio key={item.id} img={item.img} link={item.link}/> 
             ))}
           </div>
         </div>
