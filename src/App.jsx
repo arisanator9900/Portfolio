@@ -8,6 +8,7 @@ import Git from './views/Git'
 import Graphic from './views/Graphic'
 import { useContext } from 'react';
 import { ThemeContext, ThemeProvider } from './components/context';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 //import Experience from './views/Experience';
 
 const App = () => {
