@@ -1,1 +1,0 @@
-This is my frontend developer and UX/UI designer portfolio website created and maintained using react.
