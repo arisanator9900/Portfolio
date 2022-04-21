@@ -140,10 +140,14 @@ li.pr:after {
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     .s {
         flex-direction: column;
         overflow: visible;
         height: 120vh;
+    }
+
+    .s-title {
+        text-align: center;
     }
 }

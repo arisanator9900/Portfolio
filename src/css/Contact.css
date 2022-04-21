@@ -53,3 +53,28 @@
     width: 50px;
     margin-right: 25px;
 }
+
+@media screen and (max-width: 800px){
+    .c {
+        flex-direction: column;
+        overflow: visible;
+        height: 65vh;
+        
+    }
+    .c-title {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .c-right {
+        display: none;
+    }
+
+    .c-list {
+        display: block;
+    }
+    .c-icon {
+        margin-bottom: 5px;
+        display: block;
+    }
+}

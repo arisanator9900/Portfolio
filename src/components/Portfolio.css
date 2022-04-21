@@ -14,7 +14,7 @@
   
   .p-browser {
     height: 20px;
-    background-color: rgb(243, 242, 242);
+    background-color: #FF7217;
     display: flex;
     align-items: center;
     position: sticky;
@@ -26,6 +26,7 @@
     height: 6px;
     border-radius: 50%;
     margin: 3px;
+    margin-left: 4px;
     background-color: white;
   }
   
@@ -39,9 +40,11 @@
     transform: translateY(-50%);
   }*/
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 800px) {
     .p {
-      width: 40%;
-      height: 20vh;
+      width: 400px;
+      justify-content: center;
+      align-items: center;
+
     }
   }
