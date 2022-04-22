@@ -1,23 +1,21 @@
 //Github code links and images
-import Pic1 from '../img/portItems/pic1.JPG'; 
-import Pic2 from '../img/portItems/pic2.JPG'; 
-import Pic3 from '../img/portItems/pic3.JPG'; 
+import Soap from '../img/portItems/soaps.png'
 
 
 export const portItemsCode = [
     {
         id: 1,
-        img: Pic1,
+        img: '',
         link: 'https://www.google.com',
     },
     {
         id: 2,
-        img: Pic2,
+        img: '',
         link: 'https://www.google.com',
     },
     {
         id: 3,
-        img: Pic3,
+        img: '',
         link: 'https://www.google.com',
     },
 ]
@@ -27,8 +25,8 @@ export const portItemsCode = [
 export const portItemsGraphic = [
     {
         id: 1,
-        img: 'first',
-        link: '',
+        img: Soap,
+        link: 'https://www.behance.net/gallery/142251219/Soaps',
     },
     {
         id: 2,
