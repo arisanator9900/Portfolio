@@ -1,6 +1,6 @@
 .c {
     display: flex;
-    height: 60vh;
+    height: 80vh;
     flex-direction: row;
 }
 
@@ -52,8 +52,20 @@
     height: 50px;
     width: 50px;
     margin-right: 25px;
+    display: block;
+    margin-bottom: 10px;
 }
 
+.link {
+    display: inline;
+    text-decoration: none;
+    color: #000;
+}
+
+.link:hover {
+    color: #FF7217;
+    
+}
 @media screen and (max-width: 800px){
     .c {
         flex-direction: column;
