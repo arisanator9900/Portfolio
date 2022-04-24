@@ -6,7 +6,7 @@ import Crypto from '../img/portItems/crypto.png'
 export const portItemsCode = [
     {
         id: 1,
-        img: 'Crypto',
+        img: Crypto,
         link: 'https://github.com/arisanator9900/Snowball-crypto-dashboard',
     },
     {
