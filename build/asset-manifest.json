@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.ce33f23b.css",
+    "main.js": "./static/js/main.430c26d2.js",
+    "static/media/soaps.png": "./static/media/soaps.f86440bc13e4e15ed62f.png",
+    "static/media/apple.jpg": "./static/media/apple.4719c12ed7e2dd96c010.jpg",
+    "static/media/design.jpg": "./static/media/design.e2afae2807d56dcc2ad3.jpg",
+    "static/media/switch.png": "./static/media/switch.2e83e128bb628fc38fb2.png",
+    "static/media/together.jpeg": "./static/media/together.1a41a353eff8ded6c0c6.jpeg",
+    "static/media/crypto.png": "./static/media/crypto.981d1bd7e7c5d5c4075f.png",
+    "static/media/me.png": "./static/media/me.33e30ba66d455a89032b.png",
+    "static/media/sun.png": "./static/media/sun.f794832ad72b90c61eb7.png",
+    "static/media/moon.png": "./static/media/moon.3bea3d398a25611d421b.png",
+    "static/media/code-fork-solid.svg": "./static/media/code-fork-solid.387f159382bf5265357fa0774ff29b32.svg",
+    "index.html": "./index.html",
+    "static/media/phone-solid.svg": "./static/media/phone-solid.d11a5673b368c47201f7dc8d86dc0719.svg",
+    "static/media/envelope-solid.svg": "./static/media/envelope-solid.dba533a0d3bd121023c13a25036858ed.svg",
+    "main.ce33f23b.css.map": "./static/css/main.ce33f23b.css.map",
+    "main.430c26d2.js.map": "./static/js/main.430c26d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce33f23b.css",
+    "static/js/main.430c26d2.js"
+  ]
+}
