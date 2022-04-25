@@ -1,8 +1,8 @@
 //Github code links and images
 import Soap from '../img/portItems/soaps.png'
 import Crypto from '../img/portItems/crypto.png'
-import Apple from '../img/portItems/apple.png'
-import Design from '../img/portItems/design.png'
+import Apple from '../img/portItems/apple.jpg'
+import Design from '../img/portItems/design.jpg'
 
 
 export const portItemsCode = [

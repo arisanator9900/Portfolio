@@ -13,7 +13,7 @@ const Git = () => {
             <p className="g-desc">
               My Behance portfolio shows off a few skills in different areas: Illustrations, UI Design, 
               Graphic design, Photography, Logos and Social Media Content.
-            </p>
+            </p> <a className='link' href='https://www.behance.net/alexstovall' alt='github link' target='_blank' rel='noreferrer'><button className='btn'>Behance</button></a>
           </div>
           <div className="g-list">
                 {portItemsGraphic.map((item) => (
