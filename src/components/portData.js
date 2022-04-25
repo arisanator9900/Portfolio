@@ -3,6 +3,8 @@ import Soap from '../img/portItems/soaps.png'
 import Crypto from '../img/portItems/crypto.png'
 import Apple from '../img/portItems/apple.jpg'
 import Design from '../img/portItems/design.jpg'
+import Together from '../img/portItems/together.jpeg'
+import Switch from '../img/portItems/switch.png'
 
 
 export const portItemsCode = [
@@ -33,27 +35,12 @@ export const portItemsGraphic = [
     },
     {
         id: 2,
-        img: 'second',
-        link: '',
+        img: Together,
+        link: 'https://www.behance.net/gallery/142392949/Fitness-Brand-Concept-Art-Merchandise-and-Branding',
     },
     {
         id: 3,
-        img: 'third',
-        link: '',
-    },
-    {
-        id: 4,
-        img: 'fourth',
-        link: '',
-    },
-    {
-        id: 5,
-        img: 'fifth',
-        link: '',
-    },
-    {
-        id: 6,
-        img: 'sixth',
-        link: '',
+        img: Switch,
+        link: 'https://www.behance.net/gallery/142388627/Nintendo-Switch-Joycons-Are-Bold',
     },
 ]
