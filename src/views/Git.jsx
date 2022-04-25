@@ -8,12 +8,12 @@ const Git = () => {
     return (
         <div className="g">
           <div className="g-texts">
-            <h1 className="g-title">GitHub Projects</h1>
+            <h1 className="g-title">GitHub Projects</h1> 
             <Line/>
             <p className="g-desc">
               Check out what I've been up to recently on my Github! From React applications to
                Vanilla JavaScript to just plain HTML and CSS web Designs.
-            </p>
+            </p> <a className='link' href='https://github.com/arisanator9900' alt='github link' target='_blank' rel='noreferrer'><button className='btn'>Github</button></a>
           </div>
           <div className="g-list">
                 {portItemsCode.map((item) => (

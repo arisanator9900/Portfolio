@@ -13,9 +13,9 @@ const Contact = () => {
             <div className="c-left-wrapper">
                 <h2 className="c-title">Connect With Me</h2>
                 <Line />
-                    <a className='link' href='443' target="_blank" alt="phone number" rel='noreferrer'><h3 className="c-list"><img src={Phone} alt='icon' className='c-icon'/>4436407865</h3></a>
-                    <a className='link' href='https://www.Alexrstovall@gmail.com' target="_blank" alt="email" rel='noreferrer'><img src={Email} alt='icon' className='c-icon'/><h3 className="c-list">Alexrstovall@gmail.com</h3></a>
-                    <a className='link' href='https://arisanator9900.github.io' target="_blank" alt="github" rel='noreferrer'><img src={Code} alt='icon' className='c-icon'/><h3 className="c-list">arisanator9900.github.io</h3></a>
+                    <a className='link' href='443' target="_blank" alt="phone number" rel='noreferrer'><h3 className="c-list">4436407865</h3></a><img src={Phone} alt='icon' className='c-icon'/>
+                    <a className='link' href='https://www.Alexrstovall@gmail.com' target="_blank" alt="email" rel='noreferrer'><h3 className="c-list">Alexrstovall@gmail.com</h3></a><img src={Email} alt='icon' className='c-icon'/>
+                    <a className='link' href='https://arisanator9900.github.io' target="_blank" alt="github" rel='noreferrer'><h3 className="c-list">arisanator9900.github.io</h3></a><img src={Code} alt='icon' className='c-icon'/>
                     <h3 className="c-list">
                     {/*<Button class='button'/> adding button for resume*/}
                     </h3>
